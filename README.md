@@ -1,7 +1,7 @@
 # PowerShell-Get-MACvendor
 PowerShell function / module to Get-MACvendor from MAC address.
 
-I needed a function to convert MAC addresses to  Vendors
+I needed a function to convert MAC addresses to  Vendors.
 
 Example
 
@@ -14,7 +14,8 @@ ErrorDetail  :
 ErrorMessage : 
 
 If you ask to fast, you get this error message.
-  MACAddress   : 001a2b
+
+MACAddress   : 001a2b
   Vendor       : 
   Errormsg     : {"errors":{"detail":"Too Many Requests","message":"Please slow down your requests or upgrade your plan at https://macvendors.com"}}.Exception.Message
   ErrorDetail  : Too Many Requests
@@ -32,4 +33,4 @@ If you ask with to short or to long input, you get this error message.
   Vendor       : 
   Errormsg     : Wrong input, Input length needs to be 6 to 12 characters long + separators .-:
   ErrorDetail  : Wrong input
-  ErrorMessage : Input length needs to be 6 to 12 characters long + separators .-:
+  ErrorMessage : Input length needs to be 6 to 12 characters long + separator
