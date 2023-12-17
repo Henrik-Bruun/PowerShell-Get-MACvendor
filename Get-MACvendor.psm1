@@ -1,4 +1,4 @@
-﻿function Get-MACvendor {
+﻿Function Get-MACvendor {
 
 
     <#
